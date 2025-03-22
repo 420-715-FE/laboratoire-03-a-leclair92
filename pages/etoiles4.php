@@ -2,9 +2,20 @@
 
 $matrice = [];
 
+
 // AJOUTEZ VOTRE CODE CI-DESSOUS
 
+for($i = 0; $i < 10 ; $i++){
+$matrice[] = [];
+    for($j = 0 ; $j < 9 - $i; $j++){
+        $matrice[$i][] = " ";
+    }
+    for($j = 9 - $i; $j < 10 ; $j++){
+        $matrice[$i][] = "*";
+    }
 
+
+}
 
 // NE MODIFIEZ RIEN APRÈS CETTE LIGNE
 
