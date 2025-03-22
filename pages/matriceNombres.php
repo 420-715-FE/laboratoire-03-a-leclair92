@@ -3,8 +3,14 @@
 $matrice = [];
 
 // AJOUTEZ VOTRE CODE CI-DESSOUS
-
-
+for ($i = 0; $i < 100; $i+=10){
+    $ligne = [];
+    for ($j = 1; $j <= 10; $j++){
+        $ligne[] = $i + $j;
+       
+    }
+    $matrice[] = $ligne;
+   }
 
 // NE MODIFIEZ RIEN APRÈS CETTE LIGNE
 

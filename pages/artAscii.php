@@ -24,7 +24,13 @@ $matrice = $dessin;
 
         // AJOUTEZ VOTRE CODE CI-DESSOUS
         // NE MODIFIEZ RIEN AVANT CETTE LIGNE
-
+        foreach ($matrice as $ligne) {
+        
+            foreach ($ligne as $cellule) {
+                echo $cellule;
+            }
+            echo '<br>';
+        }
         
 
         // NE MODIFIEZ RIEN APRÈS CETTE LIGNE
